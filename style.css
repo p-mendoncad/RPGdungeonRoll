@@ -75,10 +75,9 @@ h1{
     text-align: center;
 }
 
-#resultado{
-    height: fit-content;
+.resposta{
     margin-top: 5vh;
-    font-size: 5vh;
+    font-size: 15vh;
     font-family: fantasy;
     font-weight:100;
     color: white;
@@ -88,7 +87,7 @@ h1{
 }
 
 #botao{
-    margin-top: 5vh;
+    margin-top: 0vh;
     width: 30vh;
     height: 10vh;
     color: white;

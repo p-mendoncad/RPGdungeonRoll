@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rpg dungeon roll - D100</title>
     <link rel="stylesheet" href="../style.css">
+    <script src="../index.js"></script>
 </head>
 <body>
     <header>
@@ -24,9 +25,9 @@
           </nav>
     </header>
     <h1>Resultado:</h1>
-    <p id="resultado">-</p>
+    <p class="resposta" id="res_d100">-</p>
     <div id="posicaoBotao">
-        <input id="botao" type="button" value="Rolar Dado">
+        <input id="botao" type="button" value="Rolar Dado" onclick="d100()">
     </div>
 </body>
 </html>
