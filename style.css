@@ -23,7 +23,7 @@ nav{
 li{
     width: fit-content;
     padding-right: 5vh;
-    font-family: fantasy;
+    font-family: fantasy,Helvetica,Arial;
     white-space: nowrap;
 
 }
@@ -67,7 +67,7 @@ h1{
     margin-top: 15vh;
     white-space: nowrap;
     font-size: 5vh;
-    font-family: fantasy;
+    font-family: fantasy,Helvetica,Arial;
     font-weight:100;
     color: white;
     display: flex;
@@ -78,7 +78,7 @@ h1{
 .resposta{
     margin-top: 5vh;
     font-size: 15vh;
-    font-family: fantasy;
+    font-family: fantasy,Helvetica,Arial;
     font-weight:100;
     color: white;
     display: flex;
@@ -92,7 +92,7 @@ h1{
     height: 10vh;
     color: white;
     font-size: 5vh;
-    font-family: fantasy;
+    font-family: fantasy,Helvetica,Arial;
     font-weight: 100;
     text-align: center;
     border-radius: 10px/30px;
