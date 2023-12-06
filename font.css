@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'OswaldMedium';
+    src: url('/font/static/Oswald-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+    font-family: 'OswaldSemibold';
+    src: url('/font/static/Oswald-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'OswaldBold';
+    src: url('/font/static/Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
