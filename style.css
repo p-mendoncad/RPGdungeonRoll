@@ -24,7 +24,7 @@ nav{
 li{
     width: fit-content;
     padding-right: 5vh;
-    font-family: OswaldBold;
+    font-family: OswaldBold,fantasy;
     white-space: nowrap;
 
 }
@@ -68,7 +68,7 @@ h1{
     margin-top: 15vh;
     white-space: nowrap;
     font-size: 5vh;
-    font-family: OswaldBold;
+    font-family: OswaldBold,fantasy;
     color: white;
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@ h1{
 .resposta{
     margin-top: 5vh;
     font-size: 15vh;
-    font-family: OswaldBold;
+    font-family: OswaldBold,fantasy;
     color: white;
     display: flex;
     justify-content: center;
@@ -90,7 +90,7 @@ h1{
     height: 10vh;
     color: white;
     font-size: 5vh;
-    font-family:OswaldBold;
+    font-family:OswaldBold,fantasy;
     text-align: center;
     border-radius: 10px/30px;
     border-width: 5px;
