@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Coolvetica Rg';
+    src: url('../font/CoolveticaRg-Regular.woff2') format('woff2'),
+        url('../font/CoolveticaRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
