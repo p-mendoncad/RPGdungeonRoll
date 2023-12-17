@@ -1,108 +1,110 @@
-
+@media screen and (min-width:768px){
 body{
-    margin:none;
-    padding: none;
-    background-image: url("https://img.itch.zone/aW1nLzEyMTkxMTQwLnBuZw==/original/ALYiiE.png");
-}
+        margin:none;
+        padding: none;
+        background-image: url("https://img.itch.zone/aW1nLzEyMTkxMTQwLnBuZw==/original/ALYiiE.png");
+    }
 
-header{
-    display: flex;
-    flex-direction: row;
-    height: 10vh;
-    width:100vh
-}
+    header{
+        display: flex;
+        flex-direction: row;
+        height: 10vh;
+        width:100vh
+    }
 
-nav{
-    display:flex;
-    justify-content: center;
-}ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none ;
-}
-li{
-    width: fit-content;
-    padding-right: 5vh;
-    font-family: Coolvetica Rg;
-    white-space: nowrap;
+    nav{
+        display:flex;
+        justify-content: center;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none ;
+    }
+    li{
+        width: fit-content;
+        padding-right: 5vh;
+        font-family: Coolvetica Rg;
+        white-space: nowrap;
+        margin-bottom: 15vh;
 
-}
-a{
-    text-decoration: none;
-    
-}
-a:link{
-    color:white;
-}
-a:visited{
-    color:white
-}
-a:hover{
-    font-size: larger;
-    color: rgb(106, 238, 106)
-}
-a:active{
-    color:red;
-}
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    a:link{
+        color:white;
+    }
+    a:visited{
+        color:white
+    }
+    a:hover{
+        font-size: larger;
+        color: rgb(106, 238, 106)
+    }
+    a:active{
+        color:red;
+    }
 
-.dado{
-    height: 10vh;
-    width: 10vh;
-    display: flex;
-    justify-content: right;
-    height: 10vh;
-}
-.dado:hover{
-    transform: rotate(180deg);
-}
-#logo{
-    height: 10vh;
-    width: 10vh;
-    display: flex;
-    justify-content: right;
-}
+    .dado{
+        height: 10px;
+        display: flex;
+        justify-content: right;
+        height: 10vh;
+    }
+    .dado:hover{
+        transform: rotate(180deg);
+    }
+    #logo{
+        height: 5rem;
+        width:  5rem;
+        display: flex;
+        justify-content: right;
+    }
 
-h1{
-    height: fit-content;
-    margin-top: 15vh;
-    white-space: nowrap;
-    font-size: 5vh;
-    font-family: Coolvetica Rg;
-    font-weight: 100;
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+    h1{
+        height: 2.5rem;
+        width: 80vw;
+        margin: 10vw auto;
+        white-space: nowrap;
+        font-size: 2.5rem;
+        font-family: Coolvetica Rg;
+        font-weight: 100;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 
-.resposta{
-    margin-top: 5vh;
-    font-size: 15vh;
-    font-family: Coolvetica Rg;
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-#botao{
-    margin-top: 0vh;
-    width: 30vh;
-    height: 10vh;
-    color: white;
-    font-size: 5vh;
-    font-family:Coolvetica Rg;
-    text-align: center;
-    border-radius: 10px/30px;
-    border-width: 5px;
-    background-color: rgb(106, 238, 106);
-    border-color: rgb(72, 160, 72);
+    .resposta{
+        margin-top: 5vh;
+        font-size: 15vh;
+        font-family: Coolvetica Rg;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #botao{
+        margin: 2vh auto;
+        width: 30vh;
+        height: 10vh;
+        color: white;
+        font-size: 5vh;
+        font-family:Coolvetica Rg;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-radius: 10px/30px;
+        border-width: 5px;
+        background-color: rgb(106, 238, 106);
+        border-color: rgb(72, 160, 72);
 
-}
-#botao:hover{
-    background-color: red;
-    border-color:darkred;
-}
-#posicaoBotao{
-    text-align: center;
+    }
+    #botao:hover{
+        background-color: red;
+        border-color:darkred;
+    }
 }

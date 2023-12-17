@@ -1,0 +1,108 @@
+@media screen and (max-width:480px){
+body{
+    margin:none;
+    padding: none;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width:100vw
+}
+
+#logo{
+    width: 10rem;
+    height: 10rem;
+    margin:5vh auto;
+    margin-top: 0vh;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none ;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+
+li{
+    width: fit-content;
+    padding-right: 5vh;
+    font-size: 1.2rem;
+    font-family: Coolvetica Rg;
+    white-space: nowrap;
+    margin-bottom:2vh;
+
+}
+a{
+    text-decoration: none;
+    
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white
+}
+a:hover{
+    font-size: larger;
+    color: rgb(106, 238, 106)
+}
+a:active{
+    color:red;
+}
+
+
+
+h1{
+    height: 20vh;
+    width: 90vw;
+    color: white;
+    font-family: Coolvetica Rg;
+    font-size: 2rem;
+    font-weight: 220;
+    display: flex;
+    text-align: justify center;
+    margin-top:30rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    
+
+}
+
+resposta{
+    margin-top: 5vh;
+    font-size: 15vh;
+    font-family: Coolvetica Rg;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#botao{
+    margin-top: 0vh;
+    width: 30vh;
+    height: 10vh;
+    color: white;
+    font-size: 5vh;
+    font-family:Coolvetica Rg;
+    text-align: center;
+    border-radius: 10px/30px;
+    border-width: 5px;
+    background-color: rgb(106, 238, 106);
+    border-color: rgb(72, 160, 72);
+
+}
+#botao:hover{
+    background-color: red;
+    border-color:darkred;
+}
+#posicaoBotao{
+    text-align: center;
+}
+}
