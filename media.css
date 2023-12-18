@@ -23,15 +23,14 @@ ul{
     display: flex;
     flex-direction: column;
     list-style-type: none ;
-    height: fit-content;
-    width: fit-content;
-    margin: auto;
+    height: 1.2rem;
+    width: 80vw;
 }
 
 
 li{
     width: fit-content;
-    padding-right: 5vh;
+    margin-right: 2vh;
     font-size: 1.2rem;
     font-family: Coolvetica Rg;
     white-space: nowrap;
@@ -73,36 +72,5 @@ h1{
 
     
 
-}
-
-resposta{
-    margin-top: 5vh;
-    font-size: 15vh;
-    font-family: Coolvetica Rg;
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-#botao{
-    margin-top: 0vh;
-    width: 30vh;
-    height: 10vh;
-    color: white;
-    font-size: 5vh;
-    font-family:Coolvetica Rg;
-    text-align: center;
-    border-radius: 10px/30px;
-    border-width: 5px;
-    background-color: rgb(106, 238, 106);
-    border-color: rgb(72, 160, 72);
-
-}
-#botao:hover{
-    background-color: red;
-    border-color:darkred;
-}
-#posicaoBotao{
-    text-align: center;
 }
 }
