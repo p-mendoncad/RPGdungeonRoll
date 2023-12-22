@@ -24,18 +24,17 @@ ul{
     flex-direction: column;
     list-style-type: none ;
     height: 1.2rem;
-    width: 8;
+    width: 80vw;
 }
 
 
 li{
-    width: fit-content;
-    margin-right: 2vh;
     font-size: 1.2rem;
     font-family: Coolvetica Rg;
     white-space: nowrap;
     margin-bottom:2vh;
-
+    display: flex;
+    justify-content: center;
 }
 a{
     text-decoration: none;
