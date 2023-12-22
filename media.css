@@ -24,8 +24,7 @@ ul{
     flex-direction: column;
     list-style-type: none ;
     height: 1.2rem;
-    width: 80vw;
-    margin-bottom:5vh ;
+    width: 8;
 }
 
 
@@ -36,9 +35,6 @@ li{
     font-family: Coolvetica Rg;
     white-space: nowrap;
     margin-bottom:2vh;
-    display: flex;
-    justify-content: center;
-    align-self: center;
 
 }
 a{
@@ -70,7 +66,7 @@ h1{
     font-weight: 220;
     display: flex;
     text-align: justify center;
-    margin-top:32rem;
+    margin-top:30rem;
     margin-left: 5vw;
     margin-right: 5vw;
 
