@@ -107,7 +107,7 @@ body{
         border-color: rgb(72, 160, 72);
 
     }
-    #botao:hover{
+    #botao:active{
         background-color: red;
         border-color:darkred;
     }
