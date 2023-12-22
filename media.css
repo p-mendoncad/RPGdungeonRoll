@@ -46,15 +46,10 @@ a:link{
 a:visited{
     color:white
 }
-a:hover{
+a{
     font-size: larger;
     color: rgb(106, 238, 106)
 }
-a:active{
-    color:red;
-}
-
-
 
 h1{
     height: 20vh;

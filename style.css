@@ -3,6 +3,8 @@ body{
         margin:none;
         padding: none;
         background-image: url("https://img.itch.zone/aW1nLzEyMTkxMTQwLnBuZw==/original/ALYiiE.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     header{
@@ -91,7 +93,7 @@ body{
     #botao{
         margin: 3vh auto;
         margin-top: 5vw;
-        width: 30vh;
+        width: 12rem;
         height: 10vh;
         color: white;
         font-size: 5vh;
